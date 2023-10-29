@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" >
+        <link rel="stylesheet" href="../static/main1.css">
+        <title >实验七前端界面</title>
+    </head>
+    <body>
+        <form action="" method="post">
+            {% csrf_token %}
+            <input class="c5" type="text" name="userB" value="1" style="display: none" /> <br>
+            <input class="c11" type="submit" value="划分网络(ryu)" style="position:absolute;left:930px;top:450px;height:50px;width:100px" />
+        </form>
+        <form action="" method="post">
+            {% csrf_token %}
+            <input class="c6" type="text" name="userB" value="2" style="display: none" /> <br>
+            <input class="c12" type="submit" value="超硬时(ryu)" style="position:absolute;left:550px;top:450px;height:50px;width:100px" />
+        </form>
+        <form action="" method="post">
+            {% csrf_token %}
+            <input class="c7" type="text" name="userB" value="3" style="display: none" /> <br>
+            <input class="c13" type="submit" value="删除s1(ODL)" style="position:absolute;left:400px;top:450px;height:50px;width:100px" />
+        </form>
+        <form action="" method="post">
+            {% csrf_token %}
+            <input class="c8" type="text" name="userB" value="4" style="display: none" /> <br>
+            <input class="c14" type="submit" value="获取s1(ODL)" style="position:absolute;left:250px;top:450px;height:50px;width:100px" />
+        </form>
+        <form action="" method="post">
+            {% csrf_token %}
+            <input class="c9" type="text" name="userB" value="5" style="display: none" /> <br>
+            <input class="c15" type="submit" value="超硬时(ODL)" style="position:absolute;left:100px;top:450px;height:50px;width:100px" />
+        </form>
+        <form action="" method="post">
+          {% csrf_token %}
+          <input class="c10" type="text" name="userB" value="6" style="display: none" /> <br>
+          <input class="c16" type="submit" value="获取信息(ryu)" style="position:absolute;left:1230px;top:450px;height:50px;width:100px" />
+        </form>
+        <img class = "c18" src="https://s2.loli.net/2023/10/29/m6FfDvJKb9Rl7Ya.png" style="position:absolute;left:200px;top:30px;height:400px;width:400px">
+        <img class = "c19" src="https://s2.loli.net/2023/10/29/buGlUKqXs7yZc4v.png" style="position:absolute;left:870px;top:30px;height:400px;width:500px">
+        <textarea class = "c2" rows="10" cols="1000" style="position:absolute;left:100px;top:520px;height:400px;width:1400px">
+        {{x}}{{list}}
+        </textarea>
+    </body>
+</html>
